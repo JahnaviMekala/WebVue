@@ -38,7 +38,7 @@ export default {
 
       
         async fetchConcert(){
-        const res= await fetch('http://localhost:9595/concert')
+        const res= await fetch('https://webprojectf.herokuapp.com/api')
         const data= await res.json()
         console.log(data)
         return data
